@@ -32,4 +32,4 @@ int main()
           printf(" %d ",prime[i]);
      }
      return 0;
-}1
+}
