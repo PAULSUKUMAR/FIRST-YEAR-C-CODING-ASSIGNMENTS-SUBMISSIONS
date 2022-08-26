@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char str[100];
+int i,count=0;
+printf("Enter the sentence"\n");
+gets(str);
+for(i=0;i<strlen(str);i++)
+{
+if(str[i]==' ')
+count=count+1;
+}
+printf("\n  no. of words in the sentence is :%d",count+1);
+}
