@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main() {
+   int f=0,s=1,sum=0,n,ele,c;
+   printf("\n Enter n:");
+   scanf("%d",&n);
+   printf("Enter ele:");
+   scanf("%d",&ele);
+   if(ele==f && ele==s)
+   c=1;
+   sum=f+s;
+   while(sum<n)
+   {
+       if(ele==sum)
+       c=1;
+       f=s;
+       s=sum;
+       sum=f+s;
+   }
+   if(c==1)
+   {
+   printf("Yes");
+   }
+   else
+   {
+   printf("No");
+   }
+     return 0;
+}
